@@ -8,10 +8,6 @@ This is a React application that includes a calendar component and a questions p
 
 The application is built with React 18.2.0 and TypeScript 4.9.5.
 
-## Browser Support
-
-This application supports the latest versions of Chrome, Edge, and Firefox.
-
 ## Main Files
 
 ### Calendar Component
@@ -31,6 +27,11 @@ The questions page is composed of two main files:
 1. `QuestionsPage.js`: This file contains the QuestionsPage component, which renders a list of questions and their answers. Each question can be expanded to show its answer.
 
 2. `Question.js`: This file contains the Question component, which is used in the QuestionsPage component to render each individual question and its answer.
+
+
+## Browser Support
+
+This application supports the latest versions of Chrome, Edge, and Firefox.
 
 ## System Requirements
 
