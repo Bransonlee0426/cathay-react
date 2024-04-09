@@ -1,0 +1,30 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.td {
+  text-align: center;
+  padding: 0px;
+  width: 50px;
+  height: 36px;
+  background-color: white;
+  transition: background-color 0.3s;
+}
+.td:hover {
+  background-color: #e6e6e6;
+  cursor: pointer;
+}
+
+.today {
+  background-color: #ffff76;
+}
+.non-current-month {
+  color: #757575;
+}
+.active {
+  background-color: #006edc !important;
+}
+.non-current-month:hover {
+  cursor: not-allowed;
+}

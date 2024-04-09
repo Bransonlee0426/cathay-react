@@ -1,46 +1,66 @@
-# Getting Started with Create React App
+# Cathay React Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React application that includes a calendar component and a questions page.
 
-## Available Scripts
+1. The calendar component allows users to select a range of dates, providing a flexible and user-friendly interface for date selection.
 
-In the project directory, you can run:
+2. The questions page provides a list of questions and their corresponding answers, serving as a helpful resource for users to find information and solutions.
 
-### `npm start`
+The application is built with React 18.2.0 and TypeScript 4.9.5.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Browser Support
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+This application supports the latest versions of Chrome, Edge, and Firefox.
 
-### `npm test`
+## Main Files
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Calendar Component
 
-### `npm run build`
+The calendar component is composed of three main files:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. `Calendar.js`: This is the main file for the calendar component. It uses the CalendarHeader and CalendarBody components to render a full calendar.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. `CalendarHeader.js`: This file contains the CalendarHeader component, which renders the header of the calendar, including the month and year, and navigation buttons.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. `CalendarBody.js`: This file contains the CalendarBody component, which renders the body of the calendar, including the days of the week and the dates.
 
-### `npm run eject`
+### Questions Page
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The questions page is composed of two main files:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. `QuestionsPage.js`: This file contains the QuestionsPage component, which renders a list of questions and their answers. Each question can be expanded to show its answer.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+2. `Question.js`: This file contains the Question component, which is used in the QuestionsPage component to render each individual question and its answer.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## System Requirements
 
-## Learn More
+- Node.js 14.0.0 or later
+- npm 6.0.0 or later
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Unit Tests
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+The `Calendar.test.tsx` file contains unit tests for the calendar component.
+
+## Installation
+
+To install the application, run the following command:
+
+```bash
+npm install
+```
+
+## Usage
+
+After installation, you can start the application by running the following command:
+
+```bash
+npm start
+```
+
+## Running Tests
+
+To run the unit tests, use the following command:
+
+```bash
+npm test
+```

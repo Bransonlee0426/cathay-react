@@ -1,0 +1,26 @@
+.calendar-warp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.calendar {
+  background-color: #ffffff;
+  width: 350px;
+  height: 240px;
+  font-size: 16px;
+}
+.reset {
+  background-color: #006edc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.reset:active {
+  background-color: #005cb2;
+}
